@@ -1,0 +1,154 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+	<style name="style_parentLinearLayout">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:background">#424242</item>
+		<item name="android:orientation">vertical</item>
+
+	</style>
+
+    <style name="style_header">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#424242</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="style_heading">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">90sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="style_subHeading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#CFD8DC</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="style_EnterName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">#616161</item>
+        <item name="android:textColorHint">#CFD8DC</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:inputType">textCapWords|textNoSuggestions|textPersonName|</item>
+    </style>
+
+    <style name="style_EnterEmail">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">#616161</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">#CFD8DC</item>
+    </style>
+
+    <style name="style_topic">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#CFD8DC</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="style_topicLayout">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#9e9e9e</item>
+    </style>
+
+    <style name="style_topicIcon">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="style_topicName">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.3</item>
+        <item name="android:textColor">#424242</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="style_scrollDown">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#CFD8DC</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="style_setQuestionAnswers">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3.5dp</item>
+        <item name="android:layout_marginEnd">6.5dp</item>
+        <item name="android:layout_marginStart">6.5dp</item>
+        <item name="android:layout_marginBottom">3.5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="style_question">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="style_answersLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="style_answers">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#212121</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingBottom">50dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>

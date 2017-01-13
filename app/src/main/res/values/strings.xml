@@ -1,0 +1,133 @@
+<resources>
+
+    <!--App strings hardcoded-->
+    <string name="app_name">Udacity Quiz App</string>
+    <string name="appHeading">Quiz</string>
+    <string name="subHeading">For Udacity Program</string>
+    <string name="topicTitle">Topic:</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="scrolldown">Keep Scrolling down to answer</string>
+    <!--Topic Goes here-->
+    <string name="topic">Islam</string>
+
+    <!--Question No.1-->
+    <string name="Q_1">Who accompanied Muhammad(PBUH) on his migration to Madinah?
+    </string>
+    <string name="A1_A">Abu Bakr Al-Siddiq (R.A)
+    </string>
+    <string name="A1_1">Uthman Bin Affan (R.A)
+    </string>
+    <string name="A1_2">Umar ibn Al-Khattab (R.A)
+    </string>
+    <string name="A1_3">Ali Bin Abu Talib (R.A)
+    </string>
+
+    <!--Question No.2-->
+    <string name="Q_2">What is the percentage of Zakaah on Muslims??
+    </string>
+    <string name="A2_A">3.5
+    </string>
+    <string name="A2_1">4.5
+    </string>
+    <string name="A2_2">1.5
+    </string>
+    <string name="A2_3">2.5
+    </string>
+
+    <!--Question No.3-->
+    <string name="Q_3">Which prophet was ordered by Allah to build the Kaabah in Makkah?
+    </string>
+    <string name="A3_A">Ibrahim (A.S)
+    </string>
+    <string name="A3_1">Muhammad (P.B.U.H)
+    </string>
+    <string name="A3_2">Dawood (A.S)
+    </string>
+    <string name="A3_3">Adam (A.S)
+    </string>
+
+    <!--Question No.4-->
+    <string name="Q_4">Which prayer does Allah mention in the Holy Quran to especially guard?
+    </string>
+    <string name="A4_A">Asr Salah
+    </string>
+    <string name="A4_1">Fajr Salah
+    </string>
+    <string name="A4_2">Magrib Salah
+    </string>
+    <string name="A4_3">Isha Salah
+    </string>
+
+    <!--Question No.5-->
+    <string name="Q_5">What does Shirk mean?
+    </string>
+    <string name="A5_A">Associating partners with Allah
+    </string>
+    <string name="A5_1">Form of Worship
+    </string>
+    <string name="A5_2">Oneness of Allah
+    </string>
+    <string name="A5_3">Worshipping Allah
+    </string>
+
+    <!--Question No.6-->
+    <string name="Q_6">What did Muhammad(PBUH) mention about the raising of daughters?
+    </string>
+    <string name="A6_A">One who raises them with love, will enter Jannah
+    </string>
+    <string name="A6_1">There is no such mention
+    </string>
+    <string name="A6_2">Daughters are bad omen
+    </string>
+    <string name="A6_3">None of the above
+    </string>
+
+    <!--Question No.7-->
+    <string name="Q_7">Which surah is considered as one third of the Quran?
+    </string>
+    <string name="A7_A">Surah Al Ikhlas
+    </string>
+    <string name="A7_1">Surah Ar Rahman
+    </string>
+    <string name="A7_2">Surah Muhammad
+    </string>
+    <string name="A7_3">Surah Yasin
+    </string>
+
+    <!--Question No.8-->
+    <string name="Q_8">What is the meaning of Jihad?
+    </string>
+    <string name="A8_A">Striving or Struggling in the way of Allah
+    </string>
+    <string name="A8_1">Killing people
+    </string>
+    <string name="A8_2">Participating in Terrorism
+    </string>
+    <string name="A8_3">Holy War
+    </string>
+
+    <!--Question No.9-->
+    <string name="Q_9">Who was the first person to revert to Islam in Muhammad(PBUH) era?
+    </string>
+    <string name="A9_A">Khatijah bint Khuwayid (R.A)
+    </string>
+    <string name="A9_1">Abu Bakr Al-Siddiq (R.A)
+    </string>
+    <string name="A9_2">Ali Bin Abu Talib (R.A)
+    </string>
+    <string name="A9_3">Hamza ibn Abdul-Muttalib (R.A)
+    </string>
+
+    <!--Question No.10-->
+    <string name="Q_10">Which surah starts without Bismillah?
+    </string>
+    <string name="A10_A">Surah At Taubah
+    </string>
+    <string name="A10_1">Surah Ar Rad
+    </string>
+    <string name="A10_2">Surah An Naml
+    </string>
+    <string name="A10_3">Surah At Tur
+    </string>
+</resources>

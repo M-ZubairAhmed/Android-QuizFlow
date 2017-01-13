@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.zubairahmed.udacityquizapp.MainActivity">
+
+    <LinearLayout style="@style/style_parentLinearLayout">
+
+        <LinearLayout style="@style/style_header">
+
+            <TextView
+                style="@style/style_heading"
+                android:text="@string/appHeading" />
+
+            <TextView
+                style="@style/style_subHeading"
+                android:text="@string/subHeading" />
+
+            <EditText
+                style="@style/style_EnterName"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:hint="@string/name" />
+
+            <EditText
+                style="@style/style_EnterEmail"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:hint="@string/email" />
+
+            <TextView
+                style="@style/style_topic"
+                android:text="@string/topicTitle" />
+
+            <LinearLayout style="@style/style_topicLayout">
+
+                <ImageView
+                    style="@style/style_topicIcon"
+                    android:src="@drawable/islamicon" />
+
+                <TextView
+                    style="@style/style_topicName"
+                    android:text="@string/topic" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_scrollDown"
+                android:text="@string/scrolldown" />
+
+        </LinearLayout>
+
+        <!--Question Number 1 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#009688"
+                android:text="@string/Q_1" />
+
+            <RadioGroup style="@style/style_answersLayout"
+	            android:id="@+id/rgID1">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A1_1"
+                    android:textColor="#009688" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A1_3"
+                    android:textColor="#009688" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:id="@+id/rbID1"
+                    android:onClick="question1"
+                    android:text="@string/A1_A"
+                    android:textColor="#009688" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A1_2"
+                    android:textColor="#009688" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 2 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#ea759d"
+                android:text="@string/Q_2" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A2_A"
+                    android:textColor="#ea759d" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A2_3"
+                    android:textColor="#ea759d" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A2_1"
+                    android:textColor="#ea759d" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A2_2"
+                    android:textColor="#ea759d" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 3 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#FFA000"
+                android:text="@string/Q_3" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A3_1"
+                    android:textColor="#FFA000" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A3_3"
+                    android:textColor="#FFA000" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A3_A"
+                    android:textColor="#FFA000" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A3_2"
+                    android:textColor="#FFA000" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 4 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#4CAF50"
+                android:text="@string/Q_4" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A4_A"
+                    android:textColor="#4CAF50" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A4_3"
+                    android:textColor="#4CAF50" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A4_1"
+                    android:textColor="#4CAF50" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A4_2"
+                    android:textColor="#4CAF50" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 5 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#8d6e63"
+                android:text="@string/Q_5" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A5_1"
+                    android:textColor="#FF8D6E63" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A5_3"
+                    android:textColor="#FF8D6E63" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A5_A"
+                    android:textColor="#FF8D6E63" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A5_2"
+                    android:textColor="#FF8D6E63" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 6 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#E64A19"
+                android:text="@string/Q_6" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A6_1"
+                    android:textColor="#E64A19" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A6_2"
+                    android:textColor="#E64A19" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A6_A"
+                    android:textColor="#E64A19" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A6_3"
+                    android:textColor="#E64A19" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 7 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#0288D1"
+                android:text="@string/Q_7" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A7_1"
+                    android:textColor="#0288D1" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A7_3"
+                    android:textColor="#0288D1" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A7_2"
+                    android:textColor="#0288D1" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A7_A"
+                    android:textColor="#0288D1" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 8 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#e1bee7"
+                android:text="@string/Q_8" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A8_A"
+                    android:textColor="#E1BEE7" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A8_3"
+                    android:textColor="#E1BEE7" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A8_1"
+                    android:textColor="#E1BEE7" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A8_2"
+                    android:textColor="#E1BEE7" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 9 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#00BCD4"
+                android:text="@string/Q_9" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A9_1"
+                    android:textColor="#00BCD4" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A9_A"
+                    android:textColor="#00BCD4" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A9_3"
+                    android:textColor="#00BCD4" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A9_2"
+                    android:textColor="#00BCD4" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--Question Number 10 -->
+        <LinearLayout style="@style/style_setQuestionAnswers">
+
+            <TextView
+                style="@style/style_question"
+                android:background="#FFEB3B"
+                android:text="@string/Q_10" />
+
+            <RadioGroup style="@style/style_answersLayout">
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A10_A"
+                    android:textColor="#FFEB3B" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A10_3"
+                    android:textColor="#FFEB3B" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A10_1"
+                    android:textColor="#FFEB3B" />
+
+                <RadioButton
+                    style="@style/style_answers"
+                    android:text="@string/A10_2"
+                    android:textColor="#FFEB3B" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -13,18 +13,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-/*    int[] score = new int[9];
-
-    public void question1(View view){
-        RadioButton q1 = (RadioButton) findViewById (R.id.ans1);
-        if (q1.isChecked ()) {
-            score[0] = 1;
-            Log.d("ZZZA",String.valueOf(score[0]));
-        }
-        else {
-            score[0]=0;
-            Log.d("ZZZB",String.valueOf(score[0]));
-        }
-    }*/
-
 }
